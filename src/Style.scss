@@ -14,7 +14,6 @@
     background: url(./assets/bgport.jpg);
     background-size: cover;
     min-height: 80vh;
-    
     .hero-text{
         margin: 20rem 15rem;
 
@@ -26,12 +25,12 @@
 // social links
 .social-links{
     flex-direction: row-reverse;
-    gap: 1em;
+    // gap: 1em;
     top: 50%;
-    left: 0.2rem;
     position: fixed;
     transform: translateY(-50%); 
-   
+    
+  
     
     .vertical-text{
         transform: rotate(-90deg);
@@ -39,12 +38,24 @@
         margin-bottom: 1rem;
     }
     ul{
+        
         li{
             list-style: none;
+           
             i{
+               
                 font-size: 2rem;
                 transform: rotate(90deg);
             }
+        
         }
     }
 }
+
+
+
+// tech stack
+    .skills{
+        font-size: 80px;
+        letter-spacing: 5rem;
+    }

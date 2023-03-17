@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <div>
         <div className="hero">
-      <div className="hero-container d-flex">
+      <div className="container-fluid hero-container d-flex">
         <div className="hero-text">
           <h3>Hi, I am Reeamsh Maharjan</h3>
           <h5>A passoionate Web Developer from Sydney, Australia</h5>

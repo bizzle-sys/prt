@@ -6,12 +6,14 @@ import { Hero } from './components/Hero'
 import { Header } from './components/Layout/Header';
 import { Footer } from './components/Layout/Footer';
 import { Socials } from './components/Socials';
+import { Skills } from './components/Skills';
 function App() {
   return (
     <>
       <Header />
       <Hero />
       <Socials />
+      <Skills />
 
       <Footer />
 

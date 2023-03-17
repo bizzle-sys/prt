@@ -20,9 +20,7 @@
 
 .social-links {
   flex-direction: row-reverse;
-  gap: 1em;
   top: 50%;
-  left: 0.2rem;
   position: fixed;
   transform: translateY(-50%);
 }
@@ -37,4 +35,9 @@
 .social-links ul li i {
   font-size: 2rem;
   transform: rotate(90deg);
+}
+
+.skills {
+  font-size: 80px;
+  letter-spacing: 5rem;
 }/*# sourceMappingURL=Style.css.map */
