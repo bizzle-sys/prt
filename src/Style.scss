@@ -34,18 +34,23 @@
     margin-bottom: 1rem;
   }
   ul {
+    list-style: none;
+    padding: initial;
+    margin-left: 10px;
     li {
-      list-style: none;
-
-      i {
-        font-size: 2rem;
-        transform: rotate(90deg);
+      a {
+        text-decoration: none;
+        color: black;
       }
+    }
+    i {
+      font-size: 2rem;
+      transform: rotate(90deg);
     }
   }
 }
 
-// tech stack
+// tech stack section
 .marquee {
   width: 80vw;
   overflow: hidden;
@@ -68,4 +73,11 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+// global header styling
+.global-header {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
 }
