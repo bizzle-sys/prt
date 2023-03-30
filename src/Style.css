@@ -29,10 +29,16 @@
   font-size: 1.2em;
   margin-bottom: 1rem;
 }
-.social-links ul li {
+.social-links ul {
   list-style: none;
+  padding: initial;
+  margin-left: 10px;
 }
-.social-links ul li i {
+.social-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.social-links ul i {
   font-size: 2rem;
   transform: rotate(90deg);
 }
@@ -58,4 +64,9 @@
   100% {
     transform: translateX(-100%);
   }
+}
+.global-header {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
 }/*# sourceMappingURL=Style.css.map */
