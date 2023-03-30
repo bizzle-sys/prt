@@ -37,7 +37,25 @@
   transform: rotate(90deg);
 }
 
-.skills {
-  font-size: 80px;
-  letter-spacing: 5rem;
+.marquee {
+  width: 80vw;
+  overflow: hidden;
+}
+.marquee .marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  font-size: 5rem;
+  letter-spacing: 80px;
+  white-space: nowrap;
+  animation: scrolling 22s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=Style.css.map */

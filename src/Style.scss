@@ -1,61 +1,90 @@
-*{
-    font-family: 'Allerta Stencil', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Allerta Stencil", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 // navbar
-.nav-links:hover{
+.nav-links:hover {
   background: rgba(128, 128, 128, 0.51);
 }
 // Hero content
-.hero{
-.hero-container{
+.hero {
+  .hero-container {
     background: url(./assets/bgport.jpg);
     background-size: cover;
     min-height: 80vh;
-    .hero-text{
-        margin: 20rem 15rem;
-
+    .hero-text {
+      margin: 20rem 15rem;
     }
-
-}
+  }
 }
 
 // social links
-.social-links{
-    flex-direction: row-reverse;
-    // gap: 1em;
-    top: 50%;
-    position: fixed;
-    transform: translateY(-50%); 
-    
-  
-    
-    .vertical-text{
-        transform: rotate(-90deg);
-        font-size: 1.2em;
-        margin-bottom: 1rem;
+.social-links {
+  flex-direction: row-reverse;
+  // gap: 1em;
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+
+  .vertical-text {
+    transform: rotate(-90deg);
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+  }
+  ul {
+    li {
+      list-style: none;
+
+      i {
+        font-size: 2rem;
+        transform: rotate(90deg);
+      }
     }
-    ul{
-        
-        li{
-            list-style: none;
-           
-            i{
-               
-                font-size: 2rem;
-                transform: rotate(90deg);
-            }
-        
-        }
-    }
+  }
 }
 
-
-
 // tech stack
-    .skills{
-        font-size: 80px;
-        letter-spacing: 5rem;
-    }
+// .skills {
+//   font-size: 80px;
+//   letter-spacing: 5rem;
+//   width: 80vw;
+// }
+// @keyframes scrolling {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(-180vw);
+//   }
+// }
+// .marquee-element {
+//   font-size: 80px;
+//   letter-spacing: 5rem;
+//   white-space: nowrap;
+//   animation: scrolling 23s linear infinite;
+// }
+.marquee {
+  width: 80vw;
+  overflow: hidden;
+
+  .marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    font-size: 5rem;
+    letter-spacing: 80px;
+    white-space: nowrap;
+    animation: scrolling 22s linear infinite;
+  }
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

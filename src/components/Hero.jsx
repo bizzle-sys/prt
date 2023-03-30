@@ -20,13 +20,6 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-    
-
-        {/* <ul className="socials">
-          <li></li>
-          <li></i></li>
-          <li></li>
-        </ul> */}
       </div>
 
 
