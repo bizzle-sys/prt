@@ -7,6 +7,8 @@ import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
 import { Socials } from "./components/Socials";
 import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
         <Hero />
         <Socials />
         <Skills />
+        <Projects />
       </Layout>
     </>
   );
