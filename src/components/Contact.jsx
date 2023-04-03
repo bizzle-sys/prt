@@ -14,7 +14,7 @@ export const Contact = () => {
           <label htmlFor="">Email</label>
           <input type="email" />
           <label htmlFor="">Your Message</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>{" "}
+          <textarea name="" id="" cols="20" rows="5"></textarea>{" "}
         </Form>
       </div>
     </>
