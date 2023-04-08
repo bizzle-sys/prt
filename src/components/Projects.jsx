@@ -8,7 +8,7 @@ export const Projects = () => {
         <div className="global-header">
           <h1>Projects</h1>
         </div>
-        <div className="d-flex">
+        <div className="d-flex ">
           <Card style={{ width: "20rem", marginLeft: "5rem" }}>
             <Card.Body>
               <Card.Title>Runway Fashion</Card.Title>

@@ -4,7 +4,7 @@ import { Form } from "react-bootstrap";
 export const Contact = () => {
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <Form className="">
           <div className="global-header">
             <h1>Contact Me</h1>
