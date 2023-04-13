@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 export const Header = () => {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="sticky-top" bg="light" expand="md">
         <Container>
           <Navbar.Brand href="#">Reeamsh {"</>"}</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -29,7 +29,9 @@ export const Header = () => {
               </Navbar>
             </Nav>
 
-            <Button variant="outline-success">Download CV</Button>
+            <Button className="ms-1" variant="outline-success">
+              Download CV
+            </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

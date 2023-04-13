@@ -25,7 +25,7 @@ export const Contact = () => {
   return (
     <>
       <div className="container ">
-        <h1 className="global-header">Contact Me</h1>
+        <h1 className="global-header ">Contact Me</h1>
 
         <Form
           className=" border m-auto mb-4 rounded shadow-lg p-5"

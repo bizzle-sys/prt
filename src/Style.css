@@ -10,7 +10,7 @@
 }
 
 .hero .hero-container {
-  background: url(./assets/bgport.jpg);
+  background-image: url(./assets/bgport.jpg);
   background-size: cover;
   min-height: 80vh;
 }
