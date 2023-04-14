@@ -3,7 +3,7 @@ import React from "react";
 export const Skills = () => {
   return (
     <div className="container">
-      <h2 className="global-header">My Tech Stack</h2>
+      <h1 className="global-header ">My Tech Stack</h1>
 
       <div className="marquee">
         <ul className="marquee-content">

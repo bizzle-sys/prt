@@ -1,5 +1,5 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { CustomInputs } from "./CustomInputs";
 
 export const Contact = () => {
@@ -33,6 +33,9 @@ export const Contact = () => {
           {inputs.map((item, i) => (
             <CustomInputs key={i} {...item} />
           ))}
+          <Button style={{ width: "100%" }} variant="outline-success">
+            Send
+          </Button>
         </Form>
       </div>
     </>
